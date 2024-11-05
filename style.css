@@ -8,3 +8,14 @@ body {
     margin: 0;
     flex-direction: column;
 }
+
+form ,h2{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
