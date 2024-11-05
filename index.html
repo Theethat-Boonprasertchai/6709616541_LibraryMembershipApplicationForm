@@ -27,7 +27,15 @@
         <input type="text" id="studentid" name="studentid" placeholder="รหัสนักศึกษา 10 หลัก" pattern="\d{10}" required ><br>
 
         <label for="faculty">คณะที่ศึกษา:</label>
-        <input type="text" id="faculty" name="faculty" placeholder="ชื่อคณะ" required><br>
+        <input type="text" id="faculty" name="faculty" placeholder="ชื่อคณะ" required>
+
+        <label for="year">ชั้นปี :</label>
+        <select id="year" name="year" required>
+            <option value="01">1</option>
+            <option value="02">2</option>
+            <option value="03">3</option>
+            <option value="04">4</option>
+        </select><br>
 
         <label for="email">ที่อยู่อีเมล (E-mail address):</label>
         <input type="email" id="email" name="email" placeholder="example@domain.com" required><br>
@@ -36,9 +44,13 @@
         <input type="date" id="birth" name="birth" required><br>
 
         <label for="interest">ประเภทหนังสือที่สนใจ :</label>
-        <input type="text" id="interest" name="interest" placeholder="ประเภทหนังสือที่สนใจ" required>
+        <input type="text" id="interest" name="interest" placeholder="ประเภทหนังสือที่สนใจ" required><br>
 
+        <label for="interest">งานอดิเรกอื่นๆ (ถ้ามี) :</label>
+        <input type="text" id="interest" name="interest" placeholder="งานอดิเรก(ถ้ามี)">
         
+
+
 
 
 
