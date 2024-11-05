@@ -10,13 +10,13 @@
 
     <h2>แบบฟอร์มสมัครสมาชิกห้องสมุด</h2>
     <form>
-        <label for="thname">ชื่อ - นามสกุล (ภาษาไทย):</label>
+        <label class="required" for="thname">ชื่อ - นามสกุล (ภาษาไทย)</label>
         <input type="text" id="thaiName" name="thaiName" placeholder="ชื่อ - นามสกุล (ภาษาไทย)" required><br>
-        <label for="enname">ชื่อ - นามสกุล (ภาษาอังกฤษ):</label>
+        <label class="required" for="enname">ชื่อ - นามสกุล (ภาษาอังกฤษ)</label>
         <input type="text" id="engName" name="engName" placeholder="ชื่อ - นามสกุล (ภาษาอังกฤษ)" required><br>
 
        
-        <label>เพศ:</label>
+        <label class="required" >เพศ</label>
         <div class="genderch">
             <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">ชาย</label>
@@ -26,13 +26,13 @@
             <label for="other">อื่นๆ</label><br>
         </div>
 
-        <label for="studentid">รหัสนักศึกษา:</label>
+        <label class="required" for="studentid">รหัสนักศึกษา</label>
         <input type="text" id="studentid" name="studentid" placeholder="รหัสนักศึกษา 10 หลัก" pattern="\d{10}" required ><br>
 
-        <label for="faculty">คณะที่ศึกษา:</label>
+        <label class="required" for="faculty">คณะที่ศึกษา</label>
         <input type="text" id="faculty" name="faculty" placeholder="ชื่อคณะ" required>
 
-        <label for="year">ชั้นปี :</label>
+        <label class="required" for="year">ชั้นปี </label>
         <select id="year" name="year" required>
             <option value="01">1</option>
             <option value="02">2</option>
@@ -40,16 +40,16 @@
             <option value="04">4</option>
         </select><br>
 
-        <label for="email">ที่อยู่อีเมล (E-mail address):</label>
+        <label class="required" for="email">ที่อยู่อีเมล (E-mail address)</label>
         <input type="email" id="email" name="email" placeholder="example@domain.com" required><br>
 
-        <label for="birth">วันเดือนปีเกิด:</label>
+        <label class="required" for="birth">วันเดือนปีเกิด</label>
         <input type="date" id="birth" name="birth" required><br>
 
-        <label for="interest">ประเภทหนังสือที่สนใจ :</label>
+        <label class="required" for="interest">ประเภทหนังสือที่สนใจ </label>
         <input type="text" id="interest" name="interest" placeholder="ประเภทหนังสือที่สนใจ" required><br>
 
-        <label >ต้องการรับข่าวสารจากห้องสมุดทางอีเมลหรือไม่</label>
+        <label class="required" >ต้องการรับข่าวสารจากห้องสมุดทางอีเมลหรือไม่</label>
         <input type="checkbox" id="news" name="news" value="yes">
         <label for="news">ยินยอม</label><br>
         <button type="submit">สมัครสมาชิก</button>
