@@ -15,13 +15,16 @@
         <label for="enname">ชื่อ - นามสกุล (ภาษาอังกฤษ):</label>
         <input type="text" id="engName" name="engName" placeholder="ชื่อ - นามสกุล (ภาษาอังกฤษ)" required><br>
 
+       
         <label>เพศ:</label>
+        <div class="genderch">
             <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">ชาย</label>
             <input type="radio" id="female" name="gender" value="female">
             <label for="female">หญิง</label>
             <input type="radio" id="other" name="gender" value="other">
             <label for="other">อื่นๆ</label><br>
+        </div>
 
         <label for="studentid">รหัสนักศึกษา:</label>
         <input type="text" id="studentid" name="studentid" placeholder="รหัสนักศึกษา 10 หลัก" pattern="\d{10}" required ><br>
